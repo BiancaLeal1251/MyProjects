@@ -6,4 +6,6 @@ So far, I've developed templates for a ficticious skincare blog, movie review we
 Those are all made up websites, and I do not own the images I've used in it.
 All of them were made using also Bootstrap.
 
+Side note: I'm continously updating and improving my projects, which means that my files posted here can go through further change and upgrades.
+
 Thank you for checking my repository!
