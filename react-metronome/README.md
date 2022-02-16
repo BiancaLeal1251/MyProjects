@@ -1,3 +1,7 @@
+Hello! This is a project of a metronome, which is a device that reproduces a clicking sound at a regular interval of time. So, just run the project and you will be able reproduce the sound at different frequencies!
+
+Thanks for checking out my repository!
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
