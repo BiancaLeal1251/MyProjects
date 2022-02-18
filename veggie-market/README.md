@@ -1,6 +1,6 @@
 # Veggie Market
 
-Hello! This is a template for a veggie e-commerce. I based this on a template for a landing page (you can find it here: (https://github.com/issaafalkattan/react-landing-page-template-2021), and modified it to look like shopping website. Down below, you can find OG info provided by the creator of the landing page. Tks for checking my repo!
+Hello! This is a template for a veggie e-commerce. I based this on a template for a landing page (you can find it here: (https://github.com/issaafalkattan/react-landing-page-template-2021)), and modified it to look like shopping website. Down below, you can find OG info provided by the creator of the landing page. Tks for checking my repo!
 
 ----- Start of OG Info -----
 ## Description
