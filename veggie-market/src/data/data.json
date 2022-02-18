@@ -1,0 +1,134 @@
+{
+  "Header": {
+    "title": "We're glad you're here!",
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+  },
+  "About": {
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "Why": [
+      "Helps losing excess weight",
+      "Diets richer in nutrients",
+      "Lower blood sugar levels",
+      "Improves kidney function"
+    ],
+    "Why2": [
+      "Protects against cancer",
+      "Lower risk of heart disease",
+      "Reduces pain from arthritis",
+      "Healthier lifestyle"
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "Vegan Pasta",
+      "largeImage": "img/vegpasta.jpg",
+      "smallImage": "img/vegpasta.jpg"
+    },
+    {
+      "title": "Vegan Cheese",
+      "largeImage": "img/vegcheese.jpg",
+      "smallImage": "img/vegcheese.jpg"
+    },
+    {
+      "title": "Vegan Sweets",
+      "largeImage": "img/vegsweets.jpg",
+      "smallImage": "img/vegsweets.jpg"
+    },
+    {
+      "title": "Vegan Meat",
+      "largeImage": "img/vegmeat.jpg",
+      "smallImage": "img/vegmeat.jpg"
+    },
+    {
+      "title": "Vegan Smoothies",
+      "largeImage": "img/vegsmoothies.jpg",
+      "smallImage": "img/vegsmoothies.jpg"
+    },
+    {
+      "title": "Vegan Iogurt",
+      "largeImage": "img/vegiogurt.jpg",
+      "smallImage": "img/vegiogurt.jpg"
+    }
+  ],
+  "Services": [
+    {
+      "img": "./img/Product01.jpg",
+      "name": "Tomato",
+      "text": "$2.99/kilo",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    },
+    {
+      "img": "./img/Product01.jpg",
+      "name": "Tomato",
+      "text": "$2.99/kilo",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    },
+    {
+      "img": "./img/Product01.jpg",
+      "name": "Tomato",
+      "text": "$2.99/kilo",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    },
+    {
+      "img": "./img/Product01.jpg",
+      "name": "Tomato",
+      "text": "$2.99/kilo",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    },
+    {
+      "img": "./img/Product01.jpg",
+      "name": "Tomato",
+      "text": "$2.99/kilo",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    },
+    {
+      "img": "./img/Product01.jpg",
+      "name": "Tomato",
+      "text": "$2.99/kilo",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    },
+    {
+      "img": "./img/Product01.jpg",
+      "name": "Tomato",
+      "text": "$2.99/kilo",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    },
+    {
+      "img": "./img/Product01.jpg",
+      "name": "Tomato",
+      "text": "$2.99/kilo",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    }
+  ],
+  
+  "Contact": {
+    "address": "4321 California St, San Francisco, CA 12345 ",
+    "phone": "+1 123 456 1234",
+    "email": "info@company.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-credit-card",
+      "title": "Credit card",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-bank",
+      "title": "Deposit",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-money",
+      "title": "Cash",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-gift",
+      "title": "Gift card",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    }
+  ]
+}
