@@ -1,0 +1,87 @@
+/* General stylong */
+body{
+margin: 2% 10%;
+}
+
+/* Navbar styling */
+.navbar{
+background-color: #08273d;
+border: 0.2rem solid #ececec;
+border-radius: 8px;
+position: relative;
+padding: 1rem;
+margin-right: 0;
+margin-left: 0;
+color: #212529;
+}
+
+.navbar-brand:link{
+color: #fff;
+font-weight: bold;
+text-decoration: none;
+}
+
+@media only screen and (max-width: 420px) {
+    .navbar-brand:link {
+        font-size: 32px;
+    }
+}
+
+@media only screen and (min-width: 421px) {
+    .navbar-brand:link {
+        font-size: 38px;
+    }
+}
+
+/* Loading style */
+.chart{
+margin: 0 5%;
+}
+
+/* Loading style */
+.blink {
+    animation: blink 1.2s steps(1, end) infinite;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  /* Chart styling */
+  .item-container{
+    display: flex;
+  }  
+
+  /* Card styling */
+  .card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    border-color: #0dcaf0;
+    width: 10rem !important;
+    height: 5rem;
+  }
+
+  .card-header{
+  padding: 10px;
+  align-self: center; 
+  }
+
+  .card-body{
+  padding: 10px;
+  align-self: center; 
+  }
