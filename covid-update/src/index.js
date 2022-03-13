@@ -6,12 +6,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Header from './Components/Navbar';
 import LatestResults from './Components/Chart'
+import Footer from './Components/Footer';
 
 ReactDOM.render(
   <React.StrictMode>
     <Header />
     <App />
     <LatestResults />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );

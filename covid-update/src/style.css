@@ -1,4 +1,4 @@
-/* General stylong */
+/* General styling */
 body{
 margin: 2% 10%;
 }
@@ -7,12 +7,11 @@ margin: 2% 10%;
 .navbar{
 background-color: #08273d;
 border: 0.2rem solid #ececec;
-border-radius: 8px;
+border-radius: 3px;
 position: relative;
 padding: 1rem;
 margin-right: 0;
 margin-left: 0;
-color: #212529;
 }
 
 .navbar-brand:link{
@@ -21,21 +20,31 @@ font-weight: bold;
 text-decoration: none;
 }
 
-@media only screen and (max-width: 420px) {
-    .navbar-brand:link {
-        font-size: 32px;
-    }
+.icon-navbar{
+position: relative;
+bottom: 2px;
+right: 5px;
 }
 
-@media only screen and (min-width: 421px) {
-    .navbar-brand:link {
-        font-size: 38px;
-    }
+.navbar-brand:link {
+font-size: 1.5rem;
 }
 
 /* Loading style */
-.chart{
-margin: 0 5%;
+@media only screen and (min-width: 769px) { 
+.chart-unity{
+margin: 0 2.5% 0 0;
+}
+}
+
+@media only screen and (max-width: 768px) { 
+.chart-unity{
+margin: 0 0 5% 0;
+}
+}
+
+.chart > h1{
+font-size: 1.2rem;  
 }
 
 /* Loading style */
@@ -56,9 +65,28 @@ margin: 0 5%;
   }
 
   /* Chart styling */
+  @media only screen and (min-width: 769px) { 
   .item-container{
     display: flex;
-  }  
+    justify-content: center;
+  }
+  }
+
+  .item-container{
+    text-align: -webkit-center;
+    text-align: -moz-center;
+  }
+
+  .updates-info{
+    font-size: 12px;
+    color: #7e7e7e;
+  }
+
+  .icon-chart{
+    position: relative;
+    top: 3px;
+    right: 5px;
+  }
 
   /* Card styling */
   .card{
@@ -69,19 +97,42 @@ margin: 0 5%;
     word-wrap: break-word;
     background-color: #fff;
     background-clip: border-box;
-    border: 1px solid rgba(0,0,0,.125);
+    border: 1px solid;
     border-radius: 0.25rem;
-    border-color: #0dcaf0;
-    width: 10rem !important;
+    border-color: #7e7e7e;
+    width: 18rem;
     height: 5rem;
   }
 
   .card-header{
   padding: 10px;
   align-self: center; 
+  display: flex;
   }
 
   .card-body{
   padding: 10px;
   align-self: center; 
+  }
+
+  /* Footer styling */
+  .footer{
+    margin: 0 5%;
+    position: relative;
+    padding: 0.5rem;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .footer-info{
+  display: flex;
+  font-size: 10px;
+  color: #08273d;
+  }
+
+  .icon-footer{
+  position: relative;
+  top: 3px;
+  right: 5px;
+  font-size: 24px !important;
   }
