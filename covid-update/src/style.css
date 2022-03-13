@@ -50,6 +50,7 @@ font-size: 1.2rem;
 /* Loading style */
 .blink {
     animation: blink 1.2s steps(1, end) infinite;
+    min-height: 50vh;
   }
   
   @keyframes blink {
@@ -69,12 +70,14 @@ font-size: 1.2rem;
   .item-container{
     display: flex;
     justify-content: center;
+    min-height: 50vh;
   }
   }
 
   .item-container{
     text-align: -webkit-center;
     text-align: -moz-center;
+    min-height: 50vh;
   }
 
   .updates-info{
