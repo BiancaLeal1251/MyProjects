@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
-import {Bar} from 'react-chartjs-2';
 import axios from 'axios';
 import 'font-awesome/css/font-awesome.min.css';
+import { PieChart } from 'react-minimal-pie-chart';
 
 const LatestResults = () => {
   const [results, setResults] = useState([]);
@@ -21,12 +21,12 @@ const fetchProducts = () => {
   axios
     .get('https://coronavirus.m.pipedream.net/')
     .then((res) => {
-      console.log(res);
+      /*console.log(res);*/
       if(res.data.summaryStats){
         var data = res.data.summaryStats.global;
         data = Object.entries(data);   
         setResults(data);    
-        console.log(res.data);  
+        console.log(data);  
       }
       
     })
@@ -44,6 +44,7 @@ function numFormatter(num) {
       return num; // if value < 1000, nothing to do
   }
 };
+
 return (
     <Container>
     <div className="chart">        
@@ -63,9 +64,20 @@ return (
                   </Card.Body>
               </Card>
               : '' 
-            }                       
+            }                  
           </div>
         ))}
+      <div className="pieChart">
+      <PieChart
+        data={[
+          { title: 'Confirmed', value: results[0][1], color: 'rgb(225, 195, 64)' },
+          { title: 'Deaths', value: results[2][1], color: 'rgb(189, 8, 28)' },
+        ]}
+        label={({ dataEntry }) => `${(dataEntry.percentage).toFixed(2)} %`}
+        animate={true}
+        radius={40}
+      />
+      </div>
       </div> 
       : <div className='blink'>Loading...</div>}    
       <div className='updates-info'><p>Updated every 5 minutes</p></div>         
@@ -73,4 +85,5 @@ return (
     </Container>
   );
 };
+
 export default LatestResults;
