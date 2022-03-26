@@ -1,5 +1,13 @@
-Important note: this is a work in progress, it is not finished yet!
+Hello! This project emulates a portal displaying Covid-19 numbers updates each 5 minutes.
+I used the following API to get the updated numbers: https://coronavirus.m.pipedream.net/.
+In order to communicate with this API, I used Axios, which is a HTTP client based on promises.
+I also used the library 'React minimal pie chart' (https://www.npmjs.com/package/react-minimal-pie-chart) to generate a pie chart containing the statistics.
 
+Check out a preview from this project down below!
+
+![image](https://user-images.githubusercontent.com/90285738/160258402-1686da6f-05fd-493d-b5e1-e4f326f5c56d.png)
+
+___________________________________________________________________________________________________________________________________________________________________
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
