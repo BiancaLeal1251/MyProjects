@@ -1,0 +1,119 @@
+/* Header styling */
+nav{
+    padding: 2% 4%;
+}
+
+.profile{
+    margin: 0 auto;
+}
+
+/* Cart styling */
+.cart{
+    padding: 2% 5%;
+    height: 55vh;
+    overflow-y: scroll;
+}
+
+table{
+    text-align: center;
+}
+
+td > a{
+    color: #212529;
+}
+
+td > a:link{
+    text-decoration: none;
+}
+
+td > a:hover{
+    text-decoration: none;
+    color: #212529;
+}
+
+td > div{
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.qty-value{
+    width: 3vw;
+    text-align: center;
+    margin: 0 5px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+@media only screen and (max-width: 421px) {
+    input[type=number] {
+        width: 10vw;
+      }
+}
+
+.subtotal{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Footer styling */
+.footer{
+    padding: 2% 5%;
+    background-color: #f8f9fa;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2% 0;
+}
+
+ul{
+    list-style: none;
+}
+
+@media only screen and (max-width: 768px) {
+    ul{
+        padding: 0 2%;
+        width: 24vw;
+    }
+    ul:last-child{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+li{
+    cursor: pointer;
+}
+
+li:hover{
+    opacity: 0.5;
+}
+
+.icon-twitter, .icon-instagram, .icon-facebook{
+    height: 20px;
+    width: 20px;
+    margin: 10% 0;
+}
+
+.icon-twitter::after{
+    content: url('./images/twitter.svg');
+}
+
+.icon-instagram::after{
+    content: url('./images/instagram.svg');
+}
+
+.icon-facebook::after{
+    content: url('./images/facebook.svg');
+}
