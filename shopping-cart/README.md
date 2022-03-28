@@ -1,3 +1,11 @@
+Hello! This is a template for a e-commerce shopping cart.
+This is a work in progress and still needs adjustments, especially when it comes to handling button clicks, and this is the next step in this project.
+Check out a preview from the template down below!
+
+![image](https://user-images.githubusercontent.com/90285738/160309214-43ee3dfe-8932-49ae-8e60-b289eb5a1eaf.png)
+
+![image](https://user-images.githubusercontent.com/90285738/160309226-0ec80781-f2d7-44ca-b04f-2335687f5540.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
